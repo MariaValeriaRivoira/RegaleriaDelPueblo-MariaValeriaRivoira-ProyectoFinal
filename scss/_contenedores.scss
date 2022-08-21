@@ -1,0 +1,42 @@
+.container-titulo{
+    background-image: url(imagenes/fondoFPeq2.png);
+}
+
+
+@mixin paddings($top, $bottom){
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
+
+
+
+.container-regaleria,
+.container-formulario,
+.container-ofertas {
+    padding: 0; 
+    background-image: url(imagenes/fondo1.png);
+    @include paddings(5rem, 5rem);
+    
+}
+
+
+
+.table{
+    background-color: $primario;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-image: url(imagenes/fondo.png);
+    padding-bottom: 4rem;
+}
+.contenido-imagen{
+    margin: 2rem;
+    text-align: center;
+}
+.container-ofertas{
+    padding-bottom: 6rem;
+}

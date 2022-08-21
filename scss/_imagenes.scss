@@ -1,0 +1,70 @@
+.nav-imagenCarro{
+    margin: 25px;
+    width: 40%;
+    border-radius: 10%;
+    animation-duration: 2s;
+    animation-name: mover;
+    animation-iteration-count: infinite;  
+   }
+ @keyframes mover {
+     0% {
+       opacity: 0;
+     }
+     100% {
+       opacity: 1;
+     }
+  }   
+
+.imagen-correo:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.img-oferta{
+    border-radius: 15%;
+    border-color: $rosaFuerte;
+    border-style: groove;
+}
+.imgRegaleria{
+  border-radius: 15%;
+  border-color: $primario;
+ 
+}
+.imagenReg--1{
+  @extend .imgRegaleria;
+  border-style: dotted;
+}
+.imagenReg--2{
+  @extend .imgRegaleria;
+  border-style:dashed;
+}
+.imagenReg--3{
+  @extend .imgRegaleria;
+  border-style:double;
+}
+.imagenReg--4{
+  @extend .imgRegaleria;
+  border-style:groove;
+}
+.imagenReg--5{
+  @extend .imgRegaleria;
+  border-style:hidden;
+}
+
+
+.imgLibreria{
+  border-radius: 12%;
+  border-style: groove;
+}
+
+$imagenesLibreria: (
+  uno: #f423cc,
+  dos: #999222,
+  tres: #ac2304,
+  cuatro: #fdb9f8
+);
+
+  @each $imagen, $colorBorde in $imagenesLibreria{
+    .img--#{$imagen}{
+      border-color: $colorBorde;
+      
+    }
+  }

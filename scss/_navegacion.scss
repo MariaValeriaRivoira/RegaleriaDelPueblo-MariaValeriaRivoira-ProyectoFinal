@@ -1,0 +1,19 @@
+.navbar {
+    background: #d9a7c7 !important;  
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7) !important;
+    background: linear-gradient(to right, #fffcdc, #d9a7c7) !important;
+    }
+    $estilo:(
+        tam: 3rem,
+        color: $negro,
+    );
+    
+    .nav-link{
+        font-size: map-get($estilo, tam);
+        color: map-get($estilo, color);
+        
+    }
+    .nav-imagenLogo{
+        width: 40% !important;
+    
+    }

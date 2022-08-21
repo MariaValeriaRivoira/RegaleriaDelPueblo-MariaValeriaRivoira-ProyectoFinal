@@ -1,0 +1,40 @@
+@import "color";
+@import "fuente";
+@import "titulos";
+@import "navegacion";
+@import "imagenes";
+@import "contenedores";
+@import "footer";
+@import "mediaQuery";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: $rosado2;
+  
+    
+}
+
+body{
+    
+    font-family: $fuentePrincipal;
+    color:$negro;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
