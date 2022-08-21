@@ -1,5 +1,5 @@
 { 
-  "name": "RegaleriaDelPueblo-MaríaValeriaRivoira",
+  "name": "regaleria-del-pueblo",
   "version": "1.0.0",
   "description": "Venta de regalos, articulos escolares, carteras, adornos, bazar, bijouterie, con importantes ofertas",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "build-css": "node-sass --include-path scss scss/style.scss style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Maria Valeria Rivoira",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^7.0.1",
